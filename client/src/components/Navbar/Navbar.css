@@ -1,0 +1,27 @@
+nav {
+  padding: 2em 4em;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.273);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link-item {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--headline-color);
+  font-weight: 400;
+}
+
+.logo {
+  margin-right: auto;
+  color: var(--headline-color);
+  cursor: default;
+}
+.logo span {
+  font-weight: 300;
+}

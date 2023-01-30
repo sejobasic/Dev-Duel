@@ -1,0 +1,39 @@
+.duel-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.duel-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.duel-container h3 {
+  font-size: 3rem;
+  color: var(--main-bg-color);
+}
+
+.duel-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 150px;
+}
+
+@media (max-width: 800px) {
+  .duel-cards {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .duel-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}

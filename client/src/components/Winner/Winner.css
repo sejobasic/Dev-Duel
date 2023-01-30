@@ -1,0 +1,28 @@
+.winner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em 3em;
+  background-color: gold;
+  border-radius: 10px;
+  color: var(--main-bg-color);
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.winner-container span {
+  font-size: 3rem;
+}
+
+.winner-container img {
+  position: fixed;
+  top: 40%;
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .winner-container {
+    width: 300px;
+    text-align: center;
+  }
+}

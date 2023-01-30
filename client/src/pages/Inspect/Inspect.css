@@ -1,0 +1,21 @@
+.inspect-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 150px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--paragraph-color);
+  padding: 3em;
+  border-radius: 10px;
+}
+
+
+.card-wrapper {
+  margin-top: 150px;
+}
+
